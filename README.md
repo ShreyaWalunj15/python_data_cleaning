@@ -1,60 +1,126 @@
-Python Data Cleaning Project
+# 📊 Python Data Cleaning & Preprocessing
 
-Overview
+### Turning Raw Customer Sales Data into Clean, Analysis-Ready Data
+<p align="center">
+  <img src="ProjectBanner.png" width="100%" alt="Python Data Cleaning Project">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Cleaning-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-Data%20Processing-013243?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" />
+</p>
+---
 
-This project focuses on cleaning and preprocessing a customer sales dataset using Python. It demonstrates data manipulation, handling missing values, removing duplicates, correcting inconsistent data, and identifying outliers.
+## 📌 About the Project
 
-Technologies Used:
+Raw data is rarely ready for analysis. It often contains missing values, duplicate records, inconsistent formats, and unusual observations.
 
--Python
+This project demonstrates an end-to-end data cleaning workflow using Python to transform a messy customer sales dataset into a structured and analysis-ready format.
 
--Pandas
+The focus is on applying practical data preprocessing techniques using **Pandas and NumPy**, along with visual exploration using Matplotlib and Seaborn.
 
--NumPy
+## 🎯 Project Objectives
 
--Matplotlib
+- Improve data quality and consistency.
+- Identify and handle missing values.
+- Detect duplicate records and remove them.
+- Standardize inconsistent data formats.
+- Identify and handle statistical outliers.
+- Prepare a clean dataset for further analysis.
 
--Seaborn
+## 🛠️ Tools & Technologies
 
--Jupyter Notebook
+| Tool | Purpose |
+|---|---|
+| Python | Programming |
+| Pandas | Data manipulation and cleaning |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Jupyter Notebook | Interactive development |
 
-Data Cleaning Steps:
+## 🔍 Data Cleaning Workflow
 
--Data inspection and exploration
+| Step | Process |
+|---|---|
+| 01 | Data loading and initial inspection |
+| 02 | Identifying missing values |
+| 03 | Handling missing values using Mean, Median and Mode |
+| 04 | Correcting inconsistent values and formats |
+| 05 | Removing duplicate records |
+| 06 | Converting columns to appropriate data types |
+| 07 | Detecting outliers using Z-score |
+| 08 | Visualizing outliers using Boxplots |
+| 09 | Exporting the cleaned dataset |
 
--Handling missing values using mean, median and mode
+## 📂 Repository Structure
 
--Correcting inconsistent values and data formats
+```text
+python-data-cleaning/
+│
+├── DataCleaning_using_Python.ipynb
+├── messy_customer_sales_data.csv
+├── customer_sales_cleaned_data.csv
+└── README.md
+```
 
--Removing duplicate records
+## 🚀 Getting Started
 
--Converting columns to appropriate data types
+**1. Clone the repository**
 
--Detecting and handling outliers using Z-score
+```bash
+git clone https://github.com/ShreyaWalunj15/python-data-cleaning.git
+```
 
--Visualizing outliers using boxplots
+**2. Navigate to the project folder**
 
--Exporting the cleaned dataset to CSV
+```bash
+cd python-data-cleaning
+```
 
-Project Files:
+**3. Install dependencies**
 
-DataCleaning_using_Python.ipynb – Complete data cleaning process.
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
 
-messy_customer_sales_data.csv – Original dataset.
+**4. Launch Jupyter Notebook**
 
-customer_sales_cleaned_data.csv – Cleaned dataset.
+```bash
+jupyter notebook
+```
 
-How to Run:
+Open `DataCleaning_using_Python.ipynb` and run the cells sequentially.
 
-1. Clone or download this repository.
+## 📁 Dataset Files
 
-2. Install the required libraries:
-pip install pandas numpy matplotlib seaborn
+- **Original Dataset:** `messy_customer_sales_data.csv`
+- **Cleaned Dataset:** `customer_sales_cleaned_data.csv`
 
-3. Open the notebook in Jupyter Notebook.
+## 💡 Key Learning Outcomes
 
-4. Run all cells sequentially.
+Through this project, I gained practical experience in:
 
-Objective:
+- Exploring and understanding raw datasets.
+- Applying different data imputation techniques.
+- Cleaning inconsistent and unstructured data.
+- Performing statistical outlier detection.
+- Using Python libraries for data preprocessing.
+- Creating reproducible data cleaning workflows.
 
-To demonstrate practical data cleaning and preprocessing skills using Python for data analytics.
+---
+
+### 👩‍💻 Author
+
+**Shreya Walunj**
+
+MCA Graduate | Aspiring Data Analyst
+
+[GitHub](https://github.com/ShreyaWalunj15) · [LinkedIn](https://linkedin.com/in/shreya-walunj-a92b53218)
+
+---
+
+<p align="center">
+  ⭐ If you find this project useful, consider giving it a star!
+</p>
