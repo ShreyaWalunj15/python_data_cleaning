@@ -101,7 +101,7 @@ Open `DataCleaning_using_Python.ipynb` and run the cells sequentially.
 ## 📊 Before vs. After Data Cleaning
 
 <p align="center">
-  <img src="comparison.png" alt="Before and After Data Cleaning Comparison" width="600">
+  <img src="Comparison_Table.png" alt="Before and After Data Cleaning Comparison" width="600">
 </p>
 
 ## 💡 Key Learning Outcomes
