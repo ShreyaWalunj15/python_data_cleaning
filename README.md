@@ -98,6 +98,12 @@ Open `DataCleaning_using_Python.ipynb` and run the cells sequentially.
 - **Original Dataset:** `messy_customer_sales_data.csv`
 - **Cleaned Dataset:** `customer_sales_cleaned_data.csv`
 
+## 📊 Before vs. After Data Cleaning
+
+<p align="center">
+  <img src="comparison.png" alt="Before and After Data Cleaning Comparison" width="600">
+</p>
+
 ## 💡 Key Learning Outcomes
 
 Through this project, I gained practical experience in:
